@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #262626;
     background-color: #E5E5E5;
+    height: 3650px;
 }
 
 /*Header*/
@@ -42,13 +43,12 @@ header {
 ion-icon {
     width: 22px;
     height: 22px;
-    margin: 0px 10px;
 }
 
 .instagram-logo, .header-actions{
     display: flex;
     align-items: flex-start; /* Imagem do instagram possui um espaço na parte inferior, fazendo com que align-itens: center funcione mal, então para alinhar melhor, é melhor usar flex-start.*/
-    
+    gap: 16px
 }
 
 .instagram-logo img {
@@ -75,7 +75,7 @@ ion-icon {
 /* Page content FEED*/
 .feed {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     width: 614px
 }
@@ -148,6 +148,7 @@ ion-icon {
     box-sizing: border-box;
 
     width: 293px;
+    height: max-content;
     padding-left: 30px;
     padding-top: 20px;
 }
@@ -230,7 +231,7 @@ ion-icon {
     justify-content: space-between;
 }
 
-.suggested-profile img {
+.profilePhoto {
     width: 32px;
     height: 32px;
     margin-right: 12px;
@@ -256,4 +257,50 @@ ion-icon {
     line-height: 13px;
     margin-top: 20px;
     color: #C7C7C7;
+}
+
+/* POST */
+.posts-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 24px;
+    gap: 64px;
+}
+
+.post {
+    width: 100%;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+.post-profileinfo {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.post > img {
+    width: 100%;
+}
+
+.post-primary-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
 }
