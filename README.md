@@ -3,7 +3,7 @@ Instagram UI clone, project figma made by Driven bootcamp.
 
 
 ## Extras:
-- [] REFAZER STORIES, ficaram ruins.
+    - [ ] REFAZER STORIES, ficaram ruins.
 
 
 
