@@ -1,6 +1,12 @@
 # projeto2-instagram
 Instagram UI clone, project figma made by Driven bootcamp.
 
+
+## Extras:
+- [] REFAZER STORIES, ficaram ruins.
+
+
+
 ## ✅ Requisitos
 - Layout
     - [ ]  Aplicar layout para *desktop*, seguindo layout fornecido no Figma;
