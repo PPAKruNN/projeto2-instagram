@@ -1,10 +1,6 @@
 # projeto2-instagram
 Instagram UI clone, project figma made by Driven bootcamp.
 
-
-## Extras:
-- [ ] Colocar Box-Shadow no stories-box.
-
 ## ✅ Requisitos
 - Layout
     - [x]  Aplicar layout para *desktop*, seguindo layout fornecido no Figma;
@@ -27,13 +23,13 @@ Instagram UI clone, project figma made by Driven bootcamp.
         - [x]  Não pode haver um *scroll* horizontal visível.
 
     - Informações de curtidas nos post
-        - [ ]  Desenvolver para *desktop e mobile*, seguindo layout bônus fornecido no Figma;
+        - [x]  Desenvolver para *desktop e mobile*, seguindo layout bônus fornecido no Figma;
         
     - Vídeo
-        - [ ]  Pelo menos um dos posts deve ser um vídeo;
-        - [ ]  Não é necessário ter o botão de play;
-        - [ ]  O vídeo deve ser inserido tanto no formato .mp4 e .ogg, para que funcione em qualquer navegador;
-        - [ ]  O vídeo deve ser iniciado automaticamente;
+        - [x]  Pelo menos um dos posts deve ser um vídeo;
+        - [x]  Não é necessário ter o botão de play;
+        - [x]  O vídeo deve ser inserido tanto no formato .mp4 e .ogg, para que funcione em qualquer navegador;
+        - [x]  O vídeo deve ser iniciado automaticamente;
         - (Para não incomodar o usuário, os navegadores (nem todos) não permitem que um vídeo toque automaticamente a não ser que o som esteja desativado.     
         Então, se colocou o atributo para iniciar o vídeo automaticamente e não funcionou, desative o som dele.)
 
@@ -43,6 +39,6 @@ Instagram UI clone, project figma made by Driven bootcamp.
         
     - Comentários
         - Pelos propósitos do projeto, não adicionamos os comentários das postagens no *layout* do Figma. Estes são os requisitos deste bônus:
-            - [ ]  Ter comentários nas postagens, com botão de *like* no canto direito em cada comentário;
-            - [ ]  Uma caixa para digitar o comentário, utilizando a tag `input`;
-            - [ ]  Um botão ao lado desta caixa para **Publicar**, com cor `#B2DFFC` inicialmente e, ao passar o mouse, fique com a cor `#0095F6` com uma transição que dura `300ms`. Procure pela propriedade *transition* para fazer isso
+            - [x]  Ter comentários nas postagens, com botão de *like* no canto direito em cada comentário;
+            - [x]  Uma caixa para digitar o comentário, utilizando a tag `input`;
+            - [x]  Um botão ao lado desta caixa para **Publicar**, com cor `#B2DFFC` inicialmente e, ao passar o mouse, fique com a cor `#0095F6` com uma transição que dura `300ms`. Procure pela propriedade *transition* para fazer isso

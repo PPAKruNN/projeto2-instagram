@@ -103,6 +103,7 @@ header img {
 
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+    box-shadow: -1px 7px 8px -3px rgba(0,0,0,0.34);
 }
 
 .storie {
@@ -301,7 +302,7 @@ header img {
     width: max-content;
 }
 
-.post > img {
+.post > img, .post > video {
     width: 100%;
 }
 
@@ -353,6 +354,60 @@ header img {
 .bottom-bar b {
     font-weight: 500;
 }
+
+/*Commentary*/
+.bottom-bar-comments {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 10px;
+}
+.commentInput {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.commentInput input{
+    width: 100%;
+    border: none;
+}
+
+.commentInput button {
+    color: #B2DFFC;
+
+    background-color: transparent;
+    border: none;
+    transition: color 300ms;
+}
+
+.commentInput button:hover {
+    color: #0095F6;
+
+    background-color: transparent;
+    border: none;
+}
+
+.commentary {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    align-content: center;
+}
+
+.commentary-content {
+    display: flex;
+    align-content: flex-end;
+    gap: 5px;
+}
+
+.commentary ion-icon {
+    width: 15px;
+    height: 15px;
+}
+
 
 /*Layout sem sidebar*/
 @media(max-width: 935px) {
