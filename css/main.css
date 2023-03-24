@@ -29,6 +29,7 @@ header {
     align-items: center;
 
     width: 925px;
+    margin: 0px 20px;
 }
 
 .header-content input {
@@ -111,6 +112,7 @@ ion-icon {
     height: 66px;
     background-image: url("../src/stories_background.jpg");
     background-size: cover;
+    border-radius: 100%;
 }
 
 .storie img:nth-child(1){
@@ -296,4 +298,34 @@ ion-icon {
     align-items: center;
     padding: 12px;
     padding-top: 6px;
+}
+
+/*Layout sem sidebar*/
+@media(max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+    
+    .content {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 614px) {
+    .content {
+        margin: 0px;
+    }
+
+    .stories-box {
+        margin: 15px 12px;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+    }
+
+    .posts-box, .post {
+        box-sizing: border-box;
+        margin: 0px;
+        width: 100%;
+    }
 }
