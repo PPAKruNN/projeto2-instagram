@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #262626;
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
     height: 3650px;
 }
 
@@ -21,6 +21,10 @@ header {
 
     background-color: #FFFFFF;
     border-bottom: 1px solid #BDBDBD
+}
+
+.mobile-header { /* Esconde o header mobile enquanto permite que o header desktop esteja ativo.*/
+    display: none;
 }
 
 .header-content {
@@ -53,8 +57,12 @@ ion-icon {
     gap: 16px
 }
 
-.instagram-logo img {
+header img {
     width: 90px;
+}
+
+.bottom-navbar {
+    display: none;
 }
 
 /*Page content*/
@@ -135,7 +143,7 @@ ion-icon {
     text-align: center;
 }
 
-.left-button {
+.right-button {
     position: absolute;
     right: 5px;
     top: 45px;
@@ -341,5 +349,37 @@ ion-icon {
         box-sizing: border-box;
         margin: 0px;
         width: 100%;
+    }
+
+    .bottom-navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: 1;
+
+        width: 100%;
+        height: 54px;
+        
+    }
+
+    .right-button{
+        display: none;
+    }
+
+    header { /* Esconde ambos os headers e ativa o mobile na próxima regra*/
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-header ion-icon {
+        padding: 0px 20px ;
     }
 }
