@@ -107,28 +107,19 @@ ion-icon {
 }
 
 .profilePicture {
-    position: relative;
+    width: 66px;
+    height: 66px;
+    background-image: url("../src/stories_background.jpg");
+    background-size: cover;
 }
 
 .storie img:nth-child(1){
+    position: relative;
+    top: 5px;
+    left: 5px;
+
     width: 56px;
     height: 56px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-
-    border-radius: 100%;
-}
-
-.storie img:nth-child(2){
-    width: 66px;
-    height: 66px;
-
-    position: absolute;
-    top: -5px;
-    left: -5px;
-
     border-radius: 100%;
 }
 
@@ -303,5 +294,6 @@ ion-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 12px;
+    padding-top: 6px;
 }
