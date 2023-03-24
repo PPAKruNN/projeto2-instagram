@@ -427,6 +427,10 @@ header img {
         margin: 0px;
     }
 
+    .content-container {
+        margin: 54px 0px;
+    }
+
     .feed {
         width: 100%;
     }
