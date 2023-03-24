@@ -5,28 +5,26 @@ Instagram UI clone, project figma made by Driven bootcamp.
 ## Extras:
 - [ ] Colocar Box-Shadow no stories-box.
 
-
-
 ## ✅ Requisitos
 - Layout
-    - [ ]  Aplicar layout para *desktop*, seguindo layout fornecido no Figma;
-    - [ ]  Aplicar layout para *mobile*, seguindo layout fornecido no Figma;
-    - [ ]  O layout sem *sidebar* deve ser ativado quando a largura da tela for menor que 935px;
-    - [ ]  O layout para *mobil*e deve ser ativado quando a largura da tela for menor que 614px;
-    - [ ]  Não é obrigatório que a *sidebar* fique fixa conforme o usuário desce na página como ocorre no Instagram (mas é um bônus).
+    - [x]  Aplicar layout para *desktop*, seguindo layout fornecido no Figma;
+    - [x]  Aplicar layout para *mobile*, seguindo layout fornecido no Figma;
+    - [x]  O layout sem *sidebar* deve ser ativado quando a largura da tela for menor que 935px;
+    - [x]  O layout para *mobil*e deve ser ativado quando a largura da tela for menor que 614px;
+    - [x]  Não é obrigatório que a *sidebar* fique fixa conforme o usuário desce na página como ocorre no Instagram (mas é um bônus).
 - Ícones
-    - [ ]  Utilize os ícones da biblioteca [Ionicons](https://ionicons.com/);
+    - [x]  Utilize os ícones da biblioteca [Ionicons](https://ionicons.com/);
     
     💡A seção **Dicas** contém um tutorial para utilizar a biblioteca.
     
 - Stories
-    - [ ]  Deve haver, no modo *desktop*, uma setinha no canto direito dos *stories* (conforme mostrado no layout do Figma).
-    - [ ]  A setinha não precisa funcionar ao clicar (só será possível quando vermos JavaScript).
+    - [x]  Deve haver, no modo *desktop*, uma setinha no canto direito dos *stories* (conforme mostrado no layout do Figma).
+    - [x]  A setinha não precisa funcionar ao clicar (só será possível quando vermos JavaScript).
 
 ## ✅ Bônus (opcional)
     - Stories
-        - [ ]  Na caixa dos *stories*, deve haver itens o suficiente para ultrapassar a largura, mas os itens a mais não devem ser exibidos, conforme *layout*.
-        - [ ]  Não pode haver um *scroll* horizontal visível.
+        - [x]  Na caixa dos *stories*, deve haver itens o suficiente  ultrapassar a largura, mas os itens a mais não devem ser exibidos conforme *layout*.
+        - [x]  Não pode haver um *scroll* horizontal visível.
 
     - Informações de curtidas nos post
         - [ ]  Desenvolver para *desktop e mobile*, seguindo layout bônus fornecido no Figma;
